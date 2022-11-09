@@ -1,0 +1,40 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title> 
+<link rel="stylesheet" href="D:\html-Css\style.css"/>
+<script src="verify.js"></script>
+</head>    
+<body class="body">    
+     <h1 class="h1">  Login Page</h1>
+     <header>
+        <nav>
+            <ul>
+              <li><a href="D:\html-Css\NewRegistration.html">Registration</a></li>
+              <li><a href="https://www.claysys.com/">Home</a></li>
+            </ul>
+        </nav>
+     </header>  
+    <form class="form" action="#">  
+        <div class="container">
+            <div>   
+            <label>Username : </label><br>   
+            <input type="text"  id="username" placeholder="Enter Username" name="username"  onfocusout="checkname()"><br>
+            <small> </small><br>
+            </div>  
+            <div>
+            <label>Password : </label><br>   
+            <input type="password" id="password" placeholder="Enter Password" name="password"  onfocusout="checkpwd()"><br>
+            <small><small><br>
+            </div>
+            <div>  
+            <button id="button" class="button" type="submit"  onclick="checkvalidation()">Login</button>
+            </div>   
+            <input type="checkbox" checked="checked"> Remember me   
+            <button class="button" type="button" class="cancelbtn"> Cancel</button>   
+            Forgot <a href="D:\html-Css\Validation.html"> password? </a>   
+        </div>   
+    </form>     
+</body>     
+</html> 

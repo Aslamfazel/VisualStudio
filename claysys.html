@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="clasys.css" />
+    <script src="claysys.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="wraper">
+                <div>
+                    <label>Name</label><br>
+                    <input  type="text" id="name" placeholder="Name" onfocusout="checkname()"><br>
+                    <small>   </small><br>
+                </div>
+                <div>
+                    <label>Password</label><br>
+                    <input  type="Password" id="pwd" placeholder="Password" onfocusout="checkpwd()"><br>
+                    <small></small><br>
+                </div>
+                <div>
+                    <input type="submit" onclick="checkvalidation()" id="button">
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+    
+</body>
+</html>
